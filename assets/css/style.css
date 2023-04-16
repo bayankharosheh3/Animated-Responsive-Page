@@ -809,7 +809,7 @@ header .header-img img {
 /* ######### choice start ######### */
 
 .choice-sec {
-  padding-top: 5%;
+  padding-top: 50px;
 }
 
 .choice-sec .choice-content {
@@ -819,7 +819,7 @@ header .header-img img {
 
 .choice-sec .choice-img {
   width: 55%;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 
 .choice-sec .choice-img img {
@@ -845,6 +845,7 @@ header .header-img img {
 .choice-sec .choice-content .btn {
   display: block;
   background-color: #ff2020;
+  margin-bottom: 20px;
 }
 
 .choice-sec .choice-content .btn::before {
@@ -888,40 +889,55 @@ header .header-img img {
   .choice-sec .choice-content .choice-para {
     width: 100%;
   }
+  .choice-sec .choice-content {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* ######### choice end ######### */
 
 /* ######### shop start ######### */
 
-.shop-sec .container{
+.shop-sec .container {
   background-color: #ff2020;
   padding: 40px 43px;
 }
 
-.shop-sec .shop-method{
+.shop-sec .shop-method {
   width: 26%;
 }
-.shop-sec .shop-method i{
+.shop-sec .shop-method i {
   font-size: 40px;
   color: #fff;
-  margin-bottom:25px ;
+  margin-bottom: 25px;
 }
 
-.shop-sec .shop-method .method-title{
+.shop-sec .shop-method .method-title {
   font-size: 20px;
   color: #fff;
-  margin-bottom:12px ;
+  margin-bottom: 12px;
   font-family: "Roboto", sans-serif;
-
 }
 
-.shop-sec .shop-method .method-para{
+.shop-sec .shop-method .method-para {
   font-size: 16px;
-  color: #D3D1D1;
-  margin-bottom:15px ;
+  color: #d3d1d1;
+  margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
   line-height: 30px;
+}
+
+@media (max-width: 567px) {
+  .shop-sec .row {
+    display: block;
+  }
+
+  .shop-sec .shop-method{
+    width: 90%;
+  }
 }
 
 /* ######### shop end ######### */
